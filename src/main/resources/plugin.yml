@@ -1,0 +1,5 @@
+name: BlockClient
+version: '${version}'
+main: it.dominick.blockclient.BlockClient
+api-version: 1.13
+authors: [ Dominick12 ]

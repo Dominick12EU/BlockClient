@@ -1,0 +1,25 @@
+enable: false
+
+mode: whitelist
+
+blocked-brands:
+  - lunarclient
+  - badlion
+  - feather fabric
+
+geyser-support: false
+geyser-prefix: "*"
+
+prefix: "&e&lBlockClient &6» "
+no-permission: "&cYou don't have permission."
+specify-player-name: "&cYou need to specify a &ePlayerName&c."
+check-succesful: "&e%player% &7is using the client &e%brand%&7."
+check-failed: "&7The player &e%player% &7didn't send a client brand packet."
+config-reload: "&7The configuration has been reloaded."
+console-log: "%player% was kicked for using %brand%."
+
+kick-message: |-
+  &6» &e&lBlockClient &6«
+
+  &eThe client you are using &6(%brand%) &eis blacklisted by this server
+  &ePlease use another client.
